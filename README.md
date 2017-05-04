@@ -7,5 +7,3 @@ As a ccmbination of [structural resolution](s_reso_minimal.pl) and a restricted 
 and the control is 
 * left first computation rule, and
 * depth first search in SLD tree.
-
-We also include an implementation of [structural resolution].
