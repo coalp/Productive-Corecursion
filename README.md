@@ -1,5 +1,5 @@
 # Productive-Corecursion
-As a combination of [structural resolution](s_reso_minimal.pl) and a restricted form of loop detection, co-S-resolution is sound regarding SLD computations at infinity.
+Implementation of co-S-resolution is in this repository. It is a combination of [structural resolution](s_reso_minimal.pl) and a restricted form of loop detection, and it is sound regarding SLD computations at infinity.
 
 "[co-S-resolution](co_s_reso_minimal.pl) = Logic + Control" where logic includes
 * [rewriting reduction and substitution reduction with occurs check](search_rule.pl), and
