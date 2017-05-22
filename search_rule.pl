@@ -16,7 +16,7 @@ unifying_and_matching_rule(A, Body) :-
          clause(A,Body,Ref).       % If matches, use this rule to reduce the goal.
 
 % choose clauses whose head unifies with the goal, and specificly, does not match the goal
-unifying_but_matching_rule(A, Body) :-
+unifying_not_matching_rule(A, Body) :-
         copy_term(A,A_copy),
         clause(A_copy,_,Ref),
         clause(A1,_,Ref),
